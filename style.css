@@ -1,0 +1,19 @@
+.line {
+    width: 70px;
+    height: 8px;
+    background-color: pink;
+    margin: 15px auto;
+}
+
+body {
+    text-align: center;
+    background-color: fuchsia;
+}
+
+img {
+    transition: transform .2s;
+}
+
+img:hover {
+    transform: scale(0.9);
+}
